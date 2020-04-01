@@ -1,0 +1,55 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="DialogFragment" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+        <item name="dialogCornerRadius">@dimen/abc_dialog_corner_radius_material</item>
+    </style>
+
+    <style name="DetailDialogFragment" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="windowNoTitle">true</item>
+        <item name="android:layout_above">@+id/fab_filter</item>
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <style name="AppTheme.SplashScreen" parent="AppTheme.NoActionBar"></style>
+
+    <style name="LoginTheme" parent="Theme.AccountKit">
+        <item name="android:windowNoTitle">true</item>
+        <item name="com_accountkit_button_disabled_background_color">#ffaa5b</item>
+        <item name="com_accountkit_primary_color">@color/colorOrange</item>
+        <item name="com_accountkit_primary_text_color">@color/colorOrange</item>
+        <item name="com_accountkit_secondary_text_color">#567BA3</item>
+        <item name="com_accountkit_button_background_color">@color/colorOrange</item>
+        <item name="com_accountkit_button_border_color">@color/colorOrange</item>
+        <item name="com_accountkit_title_text_color">@color/colorOrange</item>
+        <item name="com_accountkit_background_color">@color/colorWhite</item>
+        <item name="com_accountkit_input_accent_color">#E02323</item>
+        <item name="colorPrimaryDark">#ffaa5b</item>
+        <item name="com_accountkit_input_background_color">#EEF6FF</item>
+        <item name="com_accountkit_input_text_color">#567BA3</item>
+        <item name="com_accountkit_button_text_color">#ffffff</item>
+    </style>
+
+</resources>
